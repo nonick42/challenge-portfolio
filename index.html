@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> <!--mudar nome da page-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <figure>
-            <img src="assets/avatar-do-raul.png" alt="">
+            <img class="header__figure--img" src="assets/avatar-do-raul.png" alt="Avatar do Raul em pixel art">
         </figure>
 
-        <nav>
-            <a href="">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contatos</a>
-        </nav>
+        <div class="header__wrapper">
+            <nav class="header__nav">
+                <a class="header__nav--link" href="">Skills</a>
+                <a class="header__nav--link" href="">Projetos</a>
+                <a class="header__nav--link" href="">Sobre</a>
+                <a class="header__nav--link" href="">Contatos</a>
+            </nav>
 
-        <button>Download CV</button>
+            <button class="header__button">Download CV</button>
+        </div>
     </header>
 
     <main></main>
 
     <footer></footer>
-    
+
 </body>
+
 </html>
