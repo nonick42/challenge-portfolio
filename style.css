@@ -165,6 +165,9 @@ body {
 /* PROJETOS */
 
 .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #000;
     padding-top: 3.125rem; /* aqui, REM ou PX? */
     padding-bottom: 100px;
@@ -177,7 +180,7 @@ body {
     font-size: 2.5rem; /* aqui, REM ou PX? */
     text-shadow: 0.313rem 0.313rem 0rem #222222; /* aqui, REM ou PX? */
     text-align: center;
-    margin-bottom: 60px; /* aqui, REM ou PX? */
+    margin-bottom: 100px; /* aqui, REM ou PX? */
 }
 
 .projetos__wrapper {
@@ -204,6 +207,42 @@ body {
     box-shadow: 10px 10px 0px #fff; /* aqui, REM ou PX? */
     
 }
+
+.projetos__button {
+    display: flex;
+    background-color: #F18805;
+    height: 3.75rem; /* aqui, REM ou PX? */
+    width: 360px;
+    box-shadow: 0.25rem 0.25rem 0rem #fff; /* aqui, REM ou PX? */
+    padding: 0rem 1.25rem; /* aqui, REM ou PX? */
+    margin-top: 100px;
+    line-height: 3.75rem; /* aqui, REM ou PX? */
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.projetos__button:hover {
+    transform: scale(1.07);
+}
+
+.projetos__button--figure {
+    display: flex;
+    gap: 15px; /* aqui, REM ou PX? */
+    align-items: center;
+}
+
+.projetos__button--img {
+    width: 70%;
+    height: 70%; /*precisa disso mesmo? tem forma melhor de escrver isos?*/
+}
+
+.projetos__button--figcaption {
+    color: #000;
+    font-size: 1.25rem; /* aqui, REM ou PX? */
+    font-weight: 600;
+}
+
 
 /* SOBRE */
 
@@ -250,24 +289,47 @@ body {
     color: #fff;
     text-shadow: 0.313rem 0.313rem 0rem #222222; /* aqui, REM ou PX? */
     text-align: center;
-    margin-bottom: 60px; /* aqui, REM ou PX? */
+    margin-bottom: 100px; /* aqui, REM ou PX? */
 }
 
 .contatos__wrapper {
     display: flex;
-    gap: 10rem;
+    flex-direction: column;
+    gap: 5rem;
     justify-content: center;
+    align-items: center;
 }
 
-.contatos__buttons {
-    color: #000;
-    text-decoration: none;
-    font-size: 1.25rem; /* aqui, REM ou PX? */
-    font-weight: 600;
+.contatos__button {
+    display: flex;
     background-color: #F18805;
     height: 3.75rem; /* aqui, REM ou PX? */
+    width: 360px;
     box-shadow: 0.25rem 0.25rem 0rem #000; /* aqui, REM ou PX? */
     padding: 0rem 1.25rem; /* aqui, REM ou PX? */
     line-height: 3.75rem; /* aqui, REM ou PX? */
     cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.contatos__button:hover {
+    transform: scale(1.07);
+}
+
+.contatos__button--figure{
+    display: flex;
+    gap: 15px; /* aqui, REM ou PX? */
+    align-items: center;
+}
+
+.contatos__button--img {
+    width: 70%;
+    height: 70%; /*precisa disso mesmo? tem forma melhor de escrver isos?*/
+}
+
+.contatos__button--figcaption {
+    color: #000;
+    font-size: 1.25rem; /* aqui, REM ou PX? */
+    font-weight: 600;
 }
