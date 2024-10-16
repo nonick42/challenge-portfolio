@@ -119,5 +119,44 @@ body {
     font-size: 2.5rem;
     text-shadow: 0.313rem 0.313rem 0rem #000;
     text-align: center;
+    margin-bottom: 60px;
 }
 
+.skills__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.skills__article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    /* margin-right: 100px; */
+}
+
+.skills__figure--icone {
+    width: 90px;
+    margin-right: 25px; /* aqui, REM ou PX? */
+}
+
+.skills__article--wrapper {
+  
+}
+
+.skills__article--title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 1.563rem;
+    color: #000;
+    margin-bottom: 8px; /* aqui, REM ou PX? */
+}
+
+.skills__article--prog-bar {
+    background-color: #fff;
+    border: 5px solid #000;
+    height: 40px; /* aqui, REM ou PX? */
+    width: 320px; /* aqui, REM ou PX? */
+}
