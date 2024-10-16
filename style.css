@@ -84,11 +84,12 @@ body {
 
 .banner__box {
     position: absolute;
+    text-align: center;
     top: 4rem; /* aqui, REM ou PX? */
     left: 3rem; /* aqui, REM ou PX? */
     background-color: #F18805;
     box-shadow: 0.25rem 0.25rem 0rem #000; /* aqui, REM ou PX? */
-    padding: 2rem 2rem; /* aqui, REM ou PX? */
+    padding: 1.5rem 2rem; /* aqui, REM ou PX? */
 }
 
 .banner__box--title {
@@ -96,6 +97,7 @@ body {
     color: #fff;
     font-size: 40px; /* aqui, REM ou PX? */
     text-shadow: 5px 5px 0px #000; /* aqui, REM ou PX? */
+    margin-bottom: 16px;
 }
 
 .banner__box--subtitle {
