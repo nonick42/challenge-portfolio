@@ -237,3 +237,37 @@ body {
 
 /* CONTATOS */
 
+.contatos {
+    background-color: #3A4042;
+    padding-top: 3.125rem; /* aqui, REM ou PX? */
+    padding-bottom: 100px; /* aqui, REM ou PX? */
+    border-bottom: 0.625rem solid #000; /* aqui, REM ou PX? */
+}
+
+.contatos__title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 2.5rem; /* aqui, REM ou PX? */
+    color: #fff;
+    text-shadow: 0.313rem 0.313rem 0rem #222222; /* aqui, REM ou PX? */
+    text-align: center;
+    margin-bottom: 60px; /* aqui, REM ou PX? */
+}
+
+.contatos__wrapper {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.contatos__buttons {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.25rem; /* aqui, REM ou PX? */
+    font-weight: 600;
+    background-color: #F18805;
+    height: 3.75rem; /* aqui, REM ou PX? */
+    box-shadow: 0.25rem 0.25rem 0rem #000; /* aqui, REM ou PX? */
+    padding: 0rem 1.25rem; /* aqui, REM ou PX? */
+    line-height: 3.75rem; /* aqui, REM ou PX? */
+    cursor: pointer;
+}
