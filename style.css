@@ -333,3 +333,25 @@ body {
     font-size: 1.25rem; /* aqui, REM ou PX? */
     font-weight: 600;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #000;
+    padding-top: 10px; /* aqui, REM ou PX? */
+    padding-bottom: 20px; /* aqui, REM ou PX? */
+}
+
+.footer__title {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 1rem; /* aqui, REM ou PX? */
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px; /* aqui, REM ou PX? */
+}
+
+.footer__description {
+    font-size: 0.7rem; /* aqui, REM ou PX? */
+    color: #fff;
+    text-align: center;
+}
