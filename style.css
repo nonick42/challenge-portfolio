@@ -50,7 +50,7 @@ body {
     margin-right: 1rem; /* Alterar depois */ /* aqui, REM ou PX? */
     color: #000;
     align-items: center;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease, transform 0.1s ease;
 }
 
 .header__nav--link:hover {
@@ -66,7 +66,7 @@ body {
     box-shadow: 0.25rem 0.25rem 0rem #000; /* aqui, REM ou PX? */
     padding: 0rem 1.25rem; /* aqui, REM ou PX? */
     line-height: 3.75rem; /* aqui, REM ou PX? */
-    transition: color 0.3s ease;
+    transition: color 0.2s ease, transform 0.1s ease;
 }
 
 .header__button:hover {
@@ -250,6 +250,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     justify-content: center;
+    transition: color 0.2s ease, transform 0.1s ease;
 }
 
 .projetos__button:hover {
@@ -271,6 +272,10 @@ body {
     color: #000;
     font-size: 1.25rem; /* aqui, REM ou PX? */
     font-weight: 600;
+}
+
+.projetos__button--figcaption:hover {
+    color: #383838;
 }
 
 
@@ -325,7 +330,7 @@ body {
 .contatos__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 4rem;
     justify-content: center;
     align-items: center;
 }
@@ -342,10 +347,12 @@ body {
     pointer-events: auto;
     text-decoration: none;
     justify-content: center;
+    transition: color 0.3s ease, transform 0.1s ease;
 }
 
 .contatos__button:hover {
     transform: scale(1.07);
+    color: #383838;
 }
 
 .contatos__button--figure{
@@ -363,6 +370,10 @@ body {
     color: #000;
     font-size: 1.25rem; /* aqui, REM ou PX? */
     font-weight: 600;
+}
+
+.contatos__button--figcaption:hover {
+    color: #383838;
 }
 
 /* FOOTER */
