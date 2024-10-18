@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <!--mudar nome da page-->
+    <meta name="description" content="Portfólio de Raul Rodrigues, desenvolvedor Front-End.">
+    <title>Raul Rodrigues | Front-End Developer</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,32 +24,32 @@
 
         <div class="header__wrapper">
             <nav class="header__nav">
-                <a class="header__nav--link" href="">Skills</a>
-                <a class="header__nav--link" href="">Projetos</a>
-                <a class="header__nav--link" href="">Sobre</a>
-                <a class="header__nav--link" href="">Contatos</a>
+                <a class="header__nav--link" href="#skills">Skills</a>
+                <a class="header__nav--link" href="#projetos">Projetos</a>
+                <a class="header__nav--link" href="#sobre">Sobre</a>
+                <a class="header__nav--link" href="#contatos">Contatos</a>
             </nav>
 
-            <button class="header__button">Download CV</button>
+            <a class="header__button">Download CV</a>
         </div>
     </header>
-    
+
     <main>
         <section class="banner">
             <figure>
                 <img class="banner__figure--img" src="assets/new banner.gif"
-                alt="banner com fundo avermelhado e pequenos avatares do raul em pixel art">
+                    alt="banner com fundo avermelhado e pequenos avatares do raul em pixel art">
             </figure>
-            
+
             <article class="banner__box">
                 <h1 class="banner__box--title">Raul Rodrigues</h1>
                 <h2 class="banner__box--subtitle">Front-End Developer</h2>
             </article>
         </section>
 
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2 class="skills__title">Skills</h2>
-            
+
             <div class="skills__wrapper">
                 <!--HTML-->
                 <article class="skills__article">
@@ -57,7 +58,8 @@
                     </figure>
                     <div class="skills__article--wrapper">
                         <h3 class="skills__article--title">HTML</h3>
-                        <progress class="skills__article--prog-bar" value="40" max="100"></progress>
+                        <progress class="skills__article--prog-bar" value="40" max="100"
+                            aria-label="HTML, proficiência de 40%"></progress>
                     </div>
                 </article>
                 <!--CSS-->
@@ -67,18 +69,20 @@
                     </figure>
                     <div class="skills__article--wrapper">
                         <h3 class="skills__article--title">CSS</h3>
-                        <progress class="skills__article--prog-bar" value="40" max="100"></progress>
+                        <progress class="skills__article--prog-bar" value="40" max="100"
+                            aria-label="CSS, proficiência de 40%"></progress>
                     </div>
                 </article>
                 <!--JavaScript-->
                 <article class="skills__article">
                     <figure class="skills__article--figure">
                         <img class="skills__figure--icone" src="assets/ico_js.png"
-                        alt="Logo do JavaScript em pixel art">
+                            alt="Logo do JavaScript em pixel art">
                     </figure>
                     <div class="skills__article--wrapper">
                         <h3 class="skills__article--title">JavaScript</h3>
-                        <progress class="skills__article--prog-bar" value="20" max="100"></progress>
+                        <progress class="skills__article--prog-bar" value="20" max="100"
+                            aria-label="JavaScript, proficiência de 20%"></progress>
                     </div>
                 </article>
                 <!--REACT-->
@@ -88,7 +92,8 @@
                     </figure>
                     <div class="skills__article--wrapper">
                         <h3 class="skills__article--title">React</h3>
-                        <progress class="skills__article--prog-bar" value="00" max="100"></progress>
+                        <progress class="skills__article--prog-bar" value="10" max="100"
+                            aria-label="React, proficiência de 10%"></progress>
                     </div>
                 </article>
                 <!--GITHUB-->
@@ -99,7 +104,8 @@
                     </figure>
                     <div class="skills__article--wrapper">
                         <h3 class="skills__article--title">GitHub</h3>
-                        <progress class="skills__article--prog-bar" value="60" max="100"></progress>
+                        <progress class="skills__article--prog-bar" value="60" max="100"
+                            aria-label="GitHub, proficiência de 60%"></progress>
                     </div>
                 </article>
                 <!--GIT-->
@@ -109,37 +115,69 @@
                     </figure>
                     <div class="skills__article--wrapper">
                         <h3 class="skills__article--title">Git</h3>
-                        <progress class="skills__article--prog-bar" value="60" max="100"></progress>
+                        <progress class="skills__article--prog-bar" value="60" max="100"
+                            aria-label="Git, proficiência de 60%"></progress>
                     </div>
                 </article>
             </div>
         </section>
-        
-        <section class="projetos">
+
+        <section class="projetos" id="projetos">
             <h2 class="projetos__title">Projetos</h2>
-            
+
             <!--AQUI COLOCAR AQUELE EFEITO QUE O CARD GIRA E TEM UM TEXTO ATRAS EXPLICANDO UM POUCO SOBRE O PROJETO-->
             <div class="projetos__wrapper">
-                <article class="projetos__article">
-                    <figure class="projetos__article--figure">
-                        <img src="assets/logo-google-planilhas.png" alt="" class="projetos__figure--img">
-                        <!--Trocar para img do projeto que terá seu link aqui-->
-                    </figure>
-                </article>
-                
-                <article class="projetos__article">
-                    <figure class="projetos__article--figure">
-                        <img src="assets/logo-google-planilhas.png" alt="" class="projetos__figure--img">
-                        <!--Trocar para img do projeto que terá seu link aqui-->
-                    </figure>
-                </article>
-                
-                <article class="projetos__article">
-                    <figure class="projetos__article--figure">
-                        <img src="assets/logo-google-planilhas.png" alt="" class="projetos__figure--img">
-                        <!--Trocar para img do projeto que terá seu link aqui-->
-                    </figure>
-                </article>
+                <!--ENCRIPTADOR-->
+                <a class="projetos__rotate-card" target="_blank" rel="noopener noreferrer"
+                    href="https://challenge-encriptador-vs-final.vercel.app/?vercelToolbarCode=VhBow3-bo9MBL5M">
+                    <div class="projetos__rotate-card--front">
+                        <figure class="projetos__rotate-card--figure">
+                            <img src="assets/encriptador-pixel-art.png"
+                                alt="Chave amarela, fundo roxo e escrita 'encriptador', ambos em pixel art"
+                                class="projetos__figure--img">
+                        </figure>
+                    </div>
+                    <div class="projetos__rotate-card--back">
+                        <figure class="projetos__rotate-card--figure">
+                            <img src="assets/back-purple.png"
+                                alt="Chave amarela, fundo roxo e escrita 'encriptador', ambos em pixel art"
+                                class="projetos__figure--img">
+                        </figure>
+                    </div>
+                </a>
+                <!--JOGO NUMERO SECRETO-->
+                <a class="projetos__rotate-card" target="_blank" rel="noopener noreferrer"
+                    href="https://jogo-olive-mu.vercel.app/">
+                    <div class="projetos__rotate-card--front">
+                        <figure class="projetos__rotate-card--figure">
+                            <img src="assets/jogo-do-num-pixel-art.png"
+                                alt="Foto polaroid com descrição 'site com biografia/links' embaixo, ambos em pixel art"
+                                class="projetos__figure--img">
+                        </figure>
+                    </div>
+                    <div class="projetos__rotate-card--back">
+                        <figure class="projetos__rotate-card--figure">
+                            <img src="assets/back-blue.png"
+                                alt="Foto polaroid com descrição 'site com biografia/links' embaixo, ambos em pixel art"
+                                class="projetos__figure--img">
+                        </figure>
+                    </div>
+
+                </a>
+                <!--SITE PROFILE-->
+                <a class="projetos__rotate-card" target="_blank" rel="noopener noreferrer"
+                    href="https://site-bio-com-links-melhorzinho.vercel.app/">
+                    <div class="projetos__rotate-card--front">
+                        <figure class="projetos__rotate-card--figure">
+                            <img src="assets/site-profile-pixel-art.png" alt="" class="projetos__figure--img">
+                        </figure>
+                    </div>
+                    <div class="projetos__rotate-card--back">
+                        <figure class="projetos__rotate-card--figure">
+                            <img src="assets/back-pink.png" alt="" class="projetos__figure--img">
+                        </figure>
+                    </div>
+                </a>
             </div>
 
             <a class="projetos__button" href="">
@@ -151,56 +189,53 @@
 
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <h2 class="sobre__title">Sobre</h2>
             <div class="sobre__wrapper">
+                <p class="sobre__description">Atualmente, estou iniciando minha jornada na área de Front-End. Meu
+                    objetivo é trabalhar de forma remota, enquanto exploro novas culturas e amplio meus horizontes.</p>
+                <p class="sobre__description">Já tive experiências em diversas áreas, desde a gastronomia até a
+                    mecânica. Encontrei no Front-End a oportunidade de unir a liberdade geográfica à paixão por criar
+                    interfaces visualmente atraentes, sem comprometer a acessibilidade.</p>
+                <p class="sobre__description">Nas horas vagas, gosto de cozinhar, desenhar e, de vez em quando, me
+                    aventuro como marceneiro. Aprecio uma boa costela com farofa, amo andar de moto e adoro ver um pôr
+                    do sol acompanhado de boas conversas.</p>
 
-                <!--REENSCREVER DESCRIÇÃO-->
-                <p class="sobre__description">Hoje, no começo dos estudos em HTML e CSS. Iniciando uma carreira na área
-                    de tecnologia, para o seu objetivo, que é viver viajando e trabalhando de forma remota.</p>
-                <p class="sobre__description">Raul já trabalhou em diversas áreas, mesmo! Desde a gastronômica, estética
-                    automotiva, mecânica, administrativa, logística. Já "tocou" alguns negócios, como locação de
-                    narguilés, lanchonete, delivery de bebidas, e também já passou por alguns trabalhos "uberizados".
-                </p>
-                <p class="sobre__description">Ele costuma ser bem metódico no que faz, gosta de cozinhar e de inventar,
-                    às vezes ataca como marceneiro. Apreciador de uma boa costela com farofa, é motoqueiro, maconhista e
-                    adora um pôr do sol, conversar e viajar.</p>
             </div>
         </section>
 
-        <section class="contatos">
+        <section class="contatos" id="contatos">
             <h2 class="contatos__title">Contatos</h2>
             <div class="contatos__wrapper">
-                <!--adicionar icones das redes aos botões-->
                 <a class="contatos__button" href="https://github.com/nonick42">
                     <figure class="contatos__button--figure">
-                        <img class="contatos__button--img" src="assets/ico-github.png" alt="Logo do GitHub em pixel art">
+                        <img class="contatos__button--img" src="assets/ico-github.png"
+                            alt="Logo do GitHub em pixel art">
                         <figcaption class="contatos__button--figcaption">GitHub</figcaption>
                     </figure>
                 </a>
 
-                <a class="contatos__button" href="">
+                <a class="contatos__button" href="https://www.linkedin.com/">
                     <figure class="contatos__button--figure">
-                        <img class="contatos__button--img" src="assets/linkedin_pixel_art_logo_icon.png" alt="Logo do LinkedIn em pixel art">
+                        <img class="contatos__button--img" src="assets/linkedin_pixel_art_logo_icon.png"
+                            alt="Logo do LinkedIn em pixel art">
                         <figcaption class="contatos__button--figcaption">LinkedIn</figcaption>
                     </figure>
                 </a>
-                
+
                 <a class="contatos__button" href="mailto:raulrodrigues13@gmail.com">
                     <figure class="contatos__button--figure">
-                        <img class="contatos__button--img" src="assets/gmail-pixel-art-icon.png" alt="Logo do Gmail em pixel art">
+                        <img class="contatos__button--img" src="assets/gmail-pixel-art-icon.png"
+                            alt="Logo do Gmail em pixel art">
                         <figcaption class="contatos__button--figcaption">Gmail</figcaption>
                     </figure>
                 </a>
-
-                <a href="mailto:raulrodrigues13@gmail.com">Enviar Email</a>
-
             </div>
         </section>
     </main>
 
     <footer class="footer">
-        <p class="footer__title">The end!</p>
+        <h2 class="footer__title">The end!</h2>
         <p class="footer__description">Com ❤️ por Raul R., 2024.</p>
     </footer>
 
