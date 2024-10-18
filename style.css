@@ -311,6 +311,7 @@ body {
     padding: 0rem 1.25rem; /* aqui, REM ou PX? */
     line-height: 3.75rem; /* aqui, REM ou PX? */
     cursor: pointer;
+    pointer-events: auto;
     text-decoration: none;
     justify-content: center;
 }
