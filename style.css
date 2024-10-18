@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
@@ -29,10 +34,6 @@ body {
     gap: 1rem; /* Alterar depois */
 }
 
-.header__nav {
-    /*se precisar usar, já está aqui*/
-}
-
 .header__nav--link::before {
     content: "";
     background-color: #F18805;
@@ -54,7 +55,7 @@ body {
 
 .header__nav--link:hover {
     transform: scale(1.07);
-    /* color: #383838; */
+    color: #383838;
 }
 
 .header__button {
