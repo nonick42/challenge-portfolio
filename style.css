@@ -190,6 +190,7 @@ body {
     display: flex;
     background-color: #F18805;
     height: 3.75rem;
+    line-height: 3.75rem;
     width: 22.5rem;
     box-shadow: 4px 4px 0rem #fff;
     padding: 0rem 1.25rem;
