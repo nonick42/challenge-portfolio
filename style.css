@@ -135,10 +135,6 @@ body {
     margin-right: 25px; /* aqui, REM ou PX? */
 }
 
-.skills__article--wrapper {
-  
-}
-
 .skills__article--title {
     font-family: "Press Start 2P", sans-serif;
     font-size: 1.563rem; /* aqui, REM ou PX? */
@@ -191,10 +187,6 @@ body {
     position: relative;
 }
 
-.projetos__card--figure {
-
-}
-
 .projetos__figure--img {
     width: 280px; /* aqui, REM ou PX? */
     height: 280px; /* aqui, REM ou PX? */
@@ -241,7 +233,6 @@ body {
 .projetos__button--figcaption:hover {
     color: #383838;
 }
-
 
 /* SOBRE */
 
