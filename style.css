@@ -184,34 +184,14 @@ body {
     margin-left: auto;
 }
 
-.projetos__rotate-card {
+.projetos__card {
     perspective: 1000px;
     width: 280px;
     height: 280px;
     position: relative;
 }
 
-.projetos__rotate-card--front, .projetos__rotate-card--back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; /* Esconde o verso quando ele está de costas */
-    transition: transform 0.6s ease;
-}
-
-.projetos__rotate-card--back {
-    transform: rotateY(180deg); /* A parte de trás começa virada */
-}
-
-.projetos__rotate-card:hover .projetos__rotate-card--front {
-    transform: rotateY(180deg); /* Rotaciona a parte da frente no hover */
-}
-
-.projetos__rotate-card:hover .projetos__rotate-card--back {
-    transform: rotateY(360deg); /* Rotaciona a parte de trás para ficar visível */
-}
-
-.projetos__rotate-card--figure {
+.projetos__card--figure {
 
 }
 
