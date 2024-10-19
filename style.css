@@ -58,22 +58,6 @@ body {
     color: #383838;
 }
 
-.header__button {
-    font-size: 1.25rem; /* aqui, REM ou PX? */
-    font-weight: 600;
-    background-color: #F18805;
-    height: 3.75rem; /* aqui, REM ou PX? */
-    box-shadow: 0.25rem 0.25rem 0rem #000; /* aqui, REM ou PX? */
-    padding: 0rem 1.25rem; /* aqui, REM ou PX? */
-    line-height: 3.75rem; /* aqui, REM ou PX? */
-    transition: color 0.2s ease, transform 0.1s ease;
-}
-
-.header__button:hover {
-    transform: scale(1.07);
-    color: #383838;
-}
-
 /*BANNER*/
 
 .banner {
