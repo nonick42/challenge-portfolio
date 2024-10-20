@@ -42,6 +42,30 @@
 
     /*SKILLS*/
 
+    .skills__wrapper {
+        justify-content: center;
+    }
+
+    .skills__article {
+        margin-bottom: 60px;
+    }
+
+    .skills__article--figure {
+
+    }
+
+    .skills__figure--icone {
+
+    }
+
+    .skills__article--title {
+        font-size: 1.25rem;
+    }
+
+    .skills__article--prog-bar {
+        width: 13rem;
+    }
+
     /*PROJETOS*/
 
     /*SOBRE*/
