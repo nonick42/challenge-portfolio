@@ -96,6 +96,20 @@
 
     /*SOBRE*/
 
+    .sobre {
+        padding-bottom: 3.75rem;
+    }
+
+    .sobre__wrapper {
+        margin: 0rem 1.75rem;
+    }
+
+    .sobre__description {
+        font-size: 14px;
+        line-height: 200%;
+        margin-bottom: 0.625rem;
+    }
+
     /*CONTATOS*/
 
     /*FOOTER*/
