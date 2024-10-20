@@ -47,7 +47,7 @@
     }
 
     .skills__title {
-        margin-bottom: 6.75rem;
+        margin-bottom: 4.75rem;
     }
 
     .skills__wrapper {
@@ -72,7 +72,14 @@
 
     /*PROJETOS*/
     
+    .projetos {
+        display: flex;
+    }
+    
+    .projetos__wrapper {
+        flex-direction: column;
 
+    }
 
     /*SOBRE*/
 
