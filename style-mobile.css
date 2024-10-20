@@ -71,14 +71,27 @@
     }
 
     /*PROJETOS*/
+  
     
     .projetos {
-        display: flex;
+        padding-bottom: 3.75rem;
     }
     
+    .projetos__title {
+        margin-bottom: 5.75rem;
+    }
+
     .projetos__wrapper {
         flex-direction: column;
+    }
 
+    .projetos__card--image {
+        width: 240px;
+        height: 240px;
+    }
+
+    .projetos__button {
+        width: 16.05rem;
     }
 
     /*SOBRE*/
