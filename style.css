@@ -131,7 +131,7 @@ body {
 }
 
 .skills__article:hover {
-    transform: scale(1.03);
+    transform: translateX(10px);
 }
 
 .skills__figure--icone {
