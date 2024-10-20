@@ -42,6 +42,14 @@
 
     /*SKILLS*/
 
+    .skills {
+        padding-bottom: 3.75rem;
+    }
+
+    .skills__title {
+        margin-bottom: 4.75rem;
+    }
+
     .skills__wrapper {
         justify-content: center;
     }
@@ -50,12 +58,8 @@
         margin-bottom: 60px;
     }
 
-    .skills__article--figure {
-
-    }
-
     .skills__figure--icone {
-
+        width: 80px;
     }
 
     .skills__article--title {
