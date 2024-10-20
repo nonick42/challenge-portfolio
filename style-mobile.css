@@ -1,5 +1,7 @@
 @media (max-width: 480px) {
 
+    /*HEADER*/
+
     .header__nav {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -9,6 +11,43 @@
     
     .header__nav--link {
         text-align: center;
-        /* margin: 0px; */
     }
+
+    /*BANNER*/
+
+    .banner {
+        display: flex;
+        justify-content: center;
+    }
+
+     .banner__box {
+        display: flex;
+        flex-direction: column;
+        top: 5px;
+        left: auto;
+        padding: 0.625rem 0.625rem;
+     }
+
+     .banner__box--title {
+        font-size: 1.5rem;
+        margin-bottom: 0.625rem;
+        text-shadow: 3px 3px 0px #000;
+     }
+
+     .banner__box--subtitle {
+        font-size: 1rem;
+        text-shadow: 3px 3px 0px #000;
+
+     }
+
+    /*SKILLS*/
+
+    /*PROJETOS*/
+
+    /*SOBRE*/
+
+    /*CONTATOS*/
+
+    /*FOOTER*/
+
 }
