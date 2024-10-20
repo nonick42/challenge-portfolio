@@ -74,7 +74,7 @@
   
     
     .projetos {
-        padding-bottom: 3.75rem;
+        padding-bottom: 4.75rem;
     }
     
     .projetos__title {
@@ -111,6 +111,10 @@
     }
 
     /*CONTATOS*/
+
+    .contatos__button {
+        width: 19.5rem;
+    }
 
     /*FOOTER*/
 
