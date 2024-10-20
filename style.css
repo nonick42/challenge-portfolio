@@ -127,6 +127,11 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 2.5rem;
+    transition: transform 0.2s ease;
+}
+
+.skills__article:hover {
+    transform: scale(1.03);
 }
 
 .skills__figure--icone {
