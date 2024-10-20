@@ -19,8 +19,7 @@ Para verificar como ficou o projeto, deixo aqui o [link do mesmo](https://raulro
 
 **🎨 REFERENCIA:**
 
-- ***Este site foi totalmente inspirado no site construído através do curso "HTML e CSS Feliz", feito pelo grande mago 🧙‍♂️✨. [MARCO BRUNO](https://se.linkedin.com/in/marcobrunodev/pt), gratidão eterna!***
-- 
+- ***Este site foi totalmente inspirado no site construído através do curso [HTML e CSS Feliz](https://www.youtube.com/playlist?app=desktop&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa), feito pelo grande mago 🧙‍♂️✨. [MARCO BRUNO](https://se.linkedin.com/in/marcobrunodev/pt), gratidão eterna!***
 
 ---
 
