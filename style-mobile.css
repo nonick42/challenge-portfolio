@@ -1,0 +1,14 @@
+@media (max-width: 480px) {
+
+    .header__nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+        margin-left: 2rem;
+    }
+    
+    .header__nav--link {
+        text-align: center;
+        /* margin: 0px; */
+    }
+}
